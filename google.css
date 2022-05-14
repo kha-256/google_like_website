@@ -150,3 +150,38 @@ border: 1px solid #c6c6c6;
 box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 color: #222;
 }
+
+/* responsive code for mobile */
+
+ @media only screen and (max-width:600px){
+
+  #input-div > input{
+    width: 390px
+} 
+
+#input-div img{
+  position: absolute;
+  top:325px;
+  right: 20%
+  
+
+
+}
+
+}
+
+/* responsive code for laptop */
+
+@media only screen and (max-width:992px){
+
+  
+#input-div img{
+  position: absolute;
+  top:325px;
+  right: 26%
+  
+
+
+}
+
+}
